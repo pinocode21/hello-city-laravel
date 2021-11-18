@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Hello City</title>
+        <title>About Us | Hello City</title>
 
         <!-- Styles -->
         <style>
@@ -14,14 +14,11 @@
         
     </head>
     <body>
-        <h2>Hello from Kinshasa !</h2>
+
+        <p>Built with &hearts; by ACACIA FAMILY TECHNOLOGY</p>
 
 
 
-        <p>It's currently {{ date('h:i A') }}.</p>
-
-
-
-        <footer>&copy; Copyright {{date('Y')}} &middot; <a href="/about-us">About Us</a></footer>
+        <footer>Retourner à <a href="/">la page d'accueil</a></footer>
     </body>
 </html>
