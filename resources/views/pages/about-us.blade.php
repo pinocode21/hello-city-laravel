@@ -17,8 +17,11 @@
 
         <p>Built with <span style="color: red">&hearts;</span> by ACACIA FAMILY TECHNOLOGY</p>
 
+        <p>Revenir à <a href="/">la page d'accueil</a></p>
 
-
-        <footer>Retourner à <a href="/">la page d'accueil</a></footer>
+        
+        <footer>
+            <p>&copy; Copyright {{date('Y')}}</p>
+        </footer>
     </body>
 </html>
