@@ -14,14 +14,18 @@
         
     </head>
     <body>
-        <h2>Hello from Kinshasa !</h2>
+        <h2>Mboté cher visiteur (se), bienvenu sur notre plateforme !</h2>
 
 
 
-        <p>It's currently {{ date('h:i A') }}.</p>
+        <p>Il est actuellement {{ date('H:i') }} à Kinshasa.</p>
 
 
 
-        <footer>&copy; Copyright {{date('Y')}} &middot; <a href="/about-us">About Us</a></footer>
+        <footer>
+            <p>
+                &copy; Copyright {{date('Y')}} &middot; <a href="/about-us">About Us</a>
+            </p>
+        </footer>
     </body>
 </html>
