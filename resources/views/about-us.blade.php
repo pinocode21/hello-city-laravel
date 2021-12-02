@@ -15,7 +15,7 @@
     </head>
     <body>
 
-        <p>Built with &hearts; by ACACIA FAMILY TECHNOLOGY</p>
+        <p>Built with <span style="color: red">&hearts;</span> by ACACIA FAMILY TECHNOLOGY</p>
 
 
 
