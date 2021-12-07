@@ -1,5 +1,8 @@
 @extends('app')
 
+@section('title', 'About-us | Hello City')
+
+
 @section('content')
     <p>Built with <span style="color: red">&hearts;</span> by ACACIA FAMILY TECHNOLOGY</p>
 
