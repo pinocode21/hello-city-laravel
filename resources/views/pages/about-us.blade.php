@@ -4,6 +4,8 @@
 
 
 @section('content')
+    <img src="/images/pinocode.png" alt="Pinocode Dev" srcset="">
+
     <p>Built with <span style="color: red">&hearts;</span> by ACACIA FAMILY TECHNOLOGY</p>
 
     <p>Revenir à <a href="{{route('home')}}">la page d'accueil</a></p>
