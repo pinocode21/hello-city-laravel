@@ -1,7 +1,7 @@
 @extends('app')
 
 @section('content')
-    <img src="/images/rdc_drapeau.png" alt="Rdc flag" srcset="">
+    <img src="{{asset('images/rdc_drapeau.png')}}" alt="Rdc flag" srcset="">
 
     <h2>Mboté cher visiteur (se), bienvenu sur notre plateforme !</h2>
 

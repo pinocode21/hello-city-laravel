@@ -4,7 +4,7 @@
 
 
 @section('content')
-    <img src="/images/pinocode.png" alt="Pinocode Dev" srcset="">
+    <img src="{{asset('images/pinocode.png')}}" alt="Pinocode Dev" srcset="">
 
     <p>Built with <span style="color: red">&hearts;</span> by ACACIA FAMILY TECHNOLOGY</p>
 
