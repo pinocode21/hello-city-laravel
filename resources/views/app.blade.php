@@ -9,10 +9,14 @@
     <body>
         @yield('content')
 
+        <!--{{config('database.connections.sqlite.driver')}}-->
+
         <footer>
             <p>
-                &copy; Copyright {{date('Y')}} &middot; 
-                <a href="{{route('about')}}">About Us</a>
+                &copy; Copyright {{date('Y')}}
+                @if (! Route::is('about'))
+                    &middot; <a href="{{route('about')}}">About Us</a>
+                @endif
             </p>
         </footer>
     </body>
