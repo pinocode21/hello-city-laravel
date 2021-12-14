@@ -1,10 +1,14 @@
 @extends('app')
 
 @section('content')
-    <img src="{{asset('images/rdc_drapeau.png')}}" alt="Rdc flag" srcset="">
+    <img src="{{asset('images/rdc_drapeau.png')}}" alt="Rdc flag" class="mt-12 rounded shadow-md h-35">
 
-    <h2>Mboté cher visiteur (se), bienvenu sur notre plateforme !</h2>
+    <h2 class="mt-5 text-3xl sm:text-5xl font-semi bold text-indigo-700">
+        Mboté Kinshasa !
+    </h2>
 
-    <p>Il est actuellement {{ date('H:i') }} à Kinshasa.</p>
+    <p class="text-lg text-gray-800">
+        Il est actuellement {{ date('H:i') }} à Kinshasa.
+    </p>
 @endsection
 
