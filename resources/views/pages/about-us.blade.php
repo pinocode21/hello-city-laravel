@@ -8,7 +8,7 @@
 
     <h2 class="mb-5 text-gray-700"> 
         <span class="text-5xl sm:text-xs text-pink-500">&hearts;</span> 
-        by ACACIA FAMILY TECHNOLOGY
+        by FAC TECHNOLOGY
     </h2>
 
     <p class=""> 
