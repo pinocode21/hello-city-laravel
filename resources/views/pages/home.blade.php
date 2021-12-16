@@ -8,7 +8,7 @@
     </h2>
 
     <p class="text-lg text-gray-800">
-        Il est actuellement {{ date('H:i') }} à Kinshasa.
+        Il est actuellement {{ date('H:i') }} minutes.
     </p>
 @endsection
 
