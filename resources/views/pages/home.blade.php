@@ -1,4 +1,4 @@
-@extends('app')
+@extends('layouts.app', ['title' => 'Home'])
 
 @section('content')
     <img src="{{asset('images/rdc_drapeau.png')}}" alt="Rdc flag" class="mt-12 rounded shadow-md h-35">
